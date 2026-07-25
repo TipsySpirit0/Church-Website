@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Inter";
+  src: url("/public/fonts/Inter_18pt-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url(/public/fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@theme {
+    --font-inter: "Inter", sans-serif;
+    --font-playfair: "PlayfairDisplay", sans-serif;
+}
