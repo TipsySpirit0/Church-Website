@@ -1,6 +1,6 @@
 export default function ServiceSchedule() {
     return(
-        <div className="m-5 hover:scale-105 duration-75">
+        <div className="m-5 hover:scale-105 duration-150 ease-in">
             <h1 className="bg-[#ffd700] text-black px-4 py-2 rounded-full flex gap-2 items-center font-inter text-sm translate-y-5 translate-x-5 -rotate-5 max-w-fit">Join us every</h1>
             <div className="p-7 bg-[#65007f] text-white rounded-2xl flex flex-row item gap-36">
                 <div className="flex flex-col gap-3">

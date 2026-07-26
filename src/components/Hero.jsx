@@ -9,10 +9,10 @@ export default function Hero() {
                     <p className="text-xl font-inter text-gray-700">We are excited to welcome you home as part of our church family!</p>
 
                     <div className="mt-9 font-inter text-lg flex gap-3">
-                        <a href="" className="bg-[#ffd700] text-black px-5 py-3 rounded-full flex gap-2 items-center">
+                        <a href="" className="bg-[#ffd700] text-black px-5 py-3 rounded-full flex gap-2 items-center hover:scale-105 duration-100">
                             <Podcast />Watch us Live
                         </a>
-                        <a href="" className="border-2 border-[#65007f] text-[#65007f] px-5 py-2 rounded-full flex gap-2 items-center">
+                        <a href="" className="border-2 border-[#65007f] text-[#65007f] px-5 py-2 rounded-full flex gap-2 items-center hover:scale-105 duration-100">
                             Learn more<ArrowRight />
                         </a>
                     </div>
