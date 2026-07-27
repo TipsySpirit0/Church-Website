@@ -1,4 +1,4 @@
-import { Podcast, ArrowRight } from "lucide-react";
+import { Radio, ArrowRight } from "lucide-react";
 
 export default function Hero() {
     return(
@@ -10,7 +10,7 @@ export default function Hero() {
 
                     <div className="mt-9 font-inter text-lg flex gap-3">
                         <a href="" className="bg-[#ffd700] text-black px-5 py-3 rounded-full flex gap-2 items-center hover:scale-105 duration-100">
-                            <Podcast />Watch us Live
+                            <Radio />Watch us Live
                         </a>
                         <a href="" className="border-2 border-[#65007f] text-[#65007f] px-5 py-2 rounded-full flex gap-2 items-center hover:scale-105 duration-100">
                             Learn more<ArrowRight />
