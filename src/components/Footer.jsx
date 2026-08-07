@@ -32,10 +32,13 @@ export default function Footer() {
                         </div>
                         <div className='flex flex-col gap-3'>
                             <h1 className='font-bold'>Visit Us</h1>
-                            <p></p>
+                            <p className=''>3 Fatokun Street, Oremeta, <br /> Aba Apanu, Ologuneru Road, Ibadan.</p>
                         </div>
                     </div>
                 </div>
+                <p className="text-left text-gray-400 text-sm opacity-60">
+                    &copy; {new Date().getFullYear()} CAC Possibiltiy Assembly Nation. All rights reserved.
+                </p>
             </div>
         </div>
     );
