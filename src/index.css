@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Inter";
-  src: url("/public/fonts/Inter_18pt-Regular.ttf");
+  src: url("/fonts/Inter_18pt-Regular.ttf");
 }
 
 @font-face {
     font-family: "PlayfairDisplay";
-    src: url(/public/fonts/PlayfairDisplay-Regular.ttf);
+    src: url(/fonts/PlayfairDisplay-Regular.ttf);
 }
 
 @theme {
