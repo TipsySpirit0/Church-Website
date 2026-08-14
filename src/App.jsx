@@ -7,6 +7,7 @@ import Sermons from "./pages/Sermons";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Give from "./pages/Give";
+import Test from "./pages/Test";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/give" element={<Give />} />
+          <Route path="/compTest" element={<Test />} />
         </Routes>
         <Footer />
       </Router>
