@@ -8,11 +8,11 @@ export default function Navbar() {
             </div>
             <ul className="flex flex-row gap-5 items-center text-white font-inter text-lg">
                 <Link to="/" className="hover:scale-105 transition duration-150 active:font-bold">Home</Link> 
-                <Link to="/" className="hover:scale-105 transition duration-150 active:font-bold">About</Link>
+                <Link to="/about" className="hover:scale-105 transition duration-150 active:font-bold">About</Link>
                 <Link to="/stream" className="hover:scale-105 transition duration-150 active:font-bold">Stream</Link>
-                <Link to="/" className="hover:scale-105 transition duration-150 active:font-bold">Gallery</Link>
+                <Link to="/gallery" className="hover:scale-105 transition duration-150 active:font-bold">Gallery</Link>
                 <Link to="/sermons" className="hover:scale-105 transition duration-150 active:font-bold">Sermons</Link>
-                <Link to="/" className="bg-[#ffd700] text-black px-3 py-1 rounded-2xl hover:scale-105 transition duration-150 active:font-bold">Give</Link>
+                <Link to="/give" className="bg-[#ffd700] text-black px-3 py-1 rounded-2xl hover:scale-105 transition duration-150 active:font-bold">Give</Link>
             </ul>
         </nav>
     );

@@ -4,6 +4,9 @@ import Stream from "./pages/Stream";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sermons from "./pages/Sermons";
+import About from "./pages/About";
+import Gallery from "./pages/Gallery";
+import Give from "./pages/Give";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/stream" element={<Stream />} />
           <Route path="/sermons" element={<Sermons />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/give" element={<Give />} />
         </Routes>
         <Footer />
       </Router>
