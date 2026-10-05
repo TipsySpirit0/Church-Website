@@ -11,37 +11,32 @@ export default function About() {
 
         <section className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm sm:p-10">
           <h2 className="mb-6 font-playfair text-2xl font-bold text-[#330040] md:text-3xl">
-            Our Story
+            Community support
           </h2>
           <p className="font-inter text-base leading-relaxed text-gray-600 md:text-lg">
-            [Placeholder text: Briefly describe the history of the church here.
-            Talk about when it was founded, who founded it, and the journey so
-            far. This is a great place to highlight your church's legacy and
-            ongoing growth.]
+            Community Support: To run youth clubs, food banks, music concerts, medical outreach,  academic exhibitions, conferences, Revival meetings and support groups for neighbors in need.
           </p>
         </section>
 
         <section className="rounded-2xl bg-[#65007f] p-6 text-white shadow-md sm:p-10">
           <h2 className="mb-6 font-playfair text-2xl font-bold text-[#ffd700] md:text-3xl">
-            Our Mission & Vision
+            Main Purpose
           </h2>
           <div className="grid gap-8 md:grid-cols-2">
             <div>
               <h3 className="mb-4 font-playfair text-xl font-semibold md:text-2xl">
-                Mission
+                Spiritual Purpose
               </h3>
               <p className="font-inter text-base leading-relaxed text-gray-200">
-                [Placeholder text: "To love God, love people, and make
-                disciples." Describe the core mission of your church here.]
+                 To share Christian teachings, Healing and Miracle crusade and support people's faith growth in Christ Jesus.
               </p>
             </div>
             <div>
               <h3 className="mb-4 font-playfair text-xl font-semibold md:text-2xl">
-                Vision
+                Helping the Poor and less privileged
               </h3>
               <p className="font-inter text-base leading-relaxed text-gray-200">
-                [Placeholder text: "To be a beacon of hope and a center for
-                community transformation." Describe the long-term vision here.]
+                  Medical outreach for community, sch scholarship, business and entrepreneurs empowerment. To provide food, shelter, and support  people who are struggling or homeless.
               </p>
             </div>
           </div>

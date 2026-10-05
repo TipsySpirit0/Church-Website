@@ -28,6 +28,12 @@ export default function ServiceSchedule() {
           {site.address.area}
           <br />
           {site.address.city}
+          <br />
+                 
+          <br />
+          {site.address.street2}
+          <br />
+          {site.address.area2}
         </address>
       </div>
     </div>
